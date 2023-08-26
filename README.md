@@ -12,9 +12,9 @@ The **Factorial Number Program** calculates the factorial of a given positive in
 ## Usage
 
 1. Clone the repository to your local machine using the following command:
-   ```sh
-   git clone https://github.com/your-username/basic-c-programs.git
-   ```
+```sh
+git clone https://github.com/your-username/basic-c-programs.git
+```
 
 2. Navigate to the basic-c-programs directory:
 
