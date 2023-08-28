@@ -8,7 +8,7 @@ int main(void)
 
     printf("********** Fibonacci Series Program ***********\n\n");
 
-    //Get desired input
+    // Get desired input
     do
     {
         printf("Enter the position: ");
