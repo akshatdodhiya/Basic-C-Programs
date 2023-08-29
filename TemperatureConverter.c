@@ -11,6 +11,7 @@ int main()
 
     do
     {
+        printf("Choose any one option\n");
         printf("--> a. Celsius to Fahrenheit\n");
         printf("--> b. Fahrenheit to Celsius\n");
         fflush(stdin);
@@ -73,5 +74,8 @@ void fahrenheitToCelsius()
     printf("The value of Celsius for %.3f degrees Fahrenheit is: %.3f", fahrenheit, celsius);
 }
 
-// Learning: If input a string of characters then C language only considers the first character and proceeds.
-// For example: when asked for choice, and user enters "abc" (without quotes) it considers the first character ('a') and executes the rest of the program.
+/*
+--> Learning: If input a string of characters then C language only considers the first character and proceeds.
+--> For example: when asked for choice, and user enters "abc" (without quotes) it considers the first character ('a') and executes the rest of the program.
+--> The same works for integers as well, it considers only '123' from the input of '123.456'
+*/
