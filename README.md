@@ -44,3 +44,7 @@ The **Fibonacci Series Program** calculates the number present at the specific p
 ### 3. Teperature Converter Program
 
 The **Temperature Converter Program** converts the temperature from Celsius to Fahrenheit and vice versa. It demonstrates the use of functions and switch statements to implement the conversion.
+
+### 4. Guess the Number Game
+
+The **Guess the Number Game** is a simple game in which the user has to guess a randomly generated number. The user has 5 tries to guess it right. It demonstrates the use of random number generation and loops to implement the game.
