@@ -4,3 +4,4 @@ CMakeLists.txt
 Factorial.exe
 Fibonacci.exe
 TemperatureConverter.exe
+GuessTheNumber.exe
