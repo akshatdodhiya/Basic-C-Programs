@@ -27,11 +27,15 @@ int main(void)
 
 void generateTable(float multiplier, int limit)
 {
-    printf("Multiplication table for %f\n\n", multiplier);
+    printf("\nMultiplication table for %g\n", multiplier);
 
     // Print table in mathematical format
     for(int i=1; i<=limit; i++)
     {
-        printf("%f x %i = %f\n", multiplier, i, (multiplier*(float)i));
+        printf("%g x %i = %g\n", multiplier, i, (multiplier*(float)i));
     }
 }
+
+/*
+ * Learning: %g format specifier is used to remove all the trailing zeroes from float or double data types
+ */
