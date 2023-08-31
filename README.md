@@ -48,3 +48,6 @@ The **Temperature Converter Program** converts the temperature from Celsius to F
 ### 4. Guess the Number Game
 
 The **Guess the Number Game** is a simple game in which the user has to guess a randomly generated number. The user has 5 tries to guess it right. It demonstrates the use of random number generation and loops to implement the game.
+
+### 5. Multiplication Table Program
+The **Multiplication Table Program** displays the multiplication table of a given number. Multiplier can be of any floating point data type. It demostrates the use of functions and loops to implement the multiplication table.
