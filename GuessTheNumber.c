@@ -8,6 +8,9 @@ int main()
 {
     int guess, recvNumber, cnt = 1;
 
+    printf("********** Guess The Number Game ***********\n\n");
+
+
     recvNumber = generateRandomNumber();  // Receive the generated random number
 
     while(cnt<6)
