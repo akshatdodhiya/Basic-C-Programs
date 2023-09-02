@@ -51,3 +51,6 @@ The **Guess the Number Game** is a simple game in which the user has to guess a 
 
 ### 5. Multiplication Table Program
 The **Multiplication Table Program** displays the multiplication table of a given number. Multiplier can be of any floating point data type. It demostrates the use of functions and loops to implement the multiplication table.
+
+ ### 6. Prime Number Program
+The **Prime Number Program** checks whether a given number is prime or not. A Simple a readable program.
