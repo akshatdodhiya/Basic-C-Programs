@@ -12,9 +12,9 @@ int main(void)
         fflush(stdin);
         isValid = scanf("%d", &number);
     }
-    while (number <= 0 || !isValid);
+    while (number <= 0 || !isValid);  // Validate the input
 
-    isPrime = checkPrime(number);
+    isPrime = checkPrime(number);  // Check if the number is prime
 
     if(isPrime || number == 1)
     {
@@ -32,9 +32,9 @@ int checkPrime(int number)
     {
         if (number % i == 0)
         {
-            return 0;
+            return 0;  // Return 0(false) if the number is divisible by any number other than 1 and itself
         }
     }
 
-    return 1;
+    return 1;  // Return 1(true) if the number is not divisible by any number other than 1 and itself
 }
