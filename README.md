@@ -54,3 +54,6 @@ The **Multiplication Table Program** displays the multiplication table of a give
 
  ### 6. Prime Number Program
 The **Prime Number Program** checks whether a given number is prime or not. A Simple a readable program.
+
+### 7. Palindrome Range Program
+The **Palindrome Range Program** prints all the palaindrome numbers within a specific range. It demonstrates the use of loops to implement the palindrome range.
