@@ -41,7 +41,7 @@ The **Factorial Number Program** calculates the factorial of a given positive in
 
 The **Fibonacci Series Program** calculates the number present at the specific position in fibonacci series. It demonstrates the use of recusrion to find the number.
 
-### 3. Teperature Converter Program
+### 3. Temperature Converter Program
 
 The **Temperature Converter Program** converts the temperature from Celsius to Fahrenheit and vice versa. It demonstrates the use of functions and switch statements to implement the conversion.
 
