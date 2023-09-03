@@ -6,6 +6,8 @@ int main(void)
 {
     int number, isValid = 0, isPrime = 0;
 
+    printf("********** Prime Number Program ***********\n\n");
+
     do
     {
         printf("Enter a positive integer: ");
