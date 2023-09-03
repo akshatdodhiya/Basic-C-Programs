@@ -1,10 +1,10 @@
 .idea/
 cmake-build-debug/
 CMakeLists.txt
-Factorial.exe
-Fibonacci.exe
-TemperatureConverter.exe
-GuessTheNumber.exe
-MultiplicationTable.exe
-Prime.exe
-Palindrome.exe
+1 - Factorial.exe
+2 - Fibonacci.exe
+3 - TemperatureConverter.exe
+4 - GuessTheNumber.exe
+5 - MultiplicationTable.exe
+6 - Prime.exe
+7 - Palindrome.exe
