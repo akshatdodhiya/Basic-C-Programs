@@ -3,7 +3,7 @@
 float getMarks(int subNumber);
 int getGradingScheme();
 float getAvgMarks();
-char getLetterGrade(float average);
+const char * getLetterGrade(float average);
 
 int main(void)
 {
@@ -12,9 +12,9 @@ int main(void)
 
     printf("********** Student Grades Program ***********\n\n");
 
-    gradingChoice = getGradingScheme();
+    gradingChoice = getGradingScheme();  // Get user's choice of grading scheme
 
-    average = getAvgMarks();  // Calculate overall percentage
+    average = getAvgMarks();  // Get overall percentage
 
     switch(gradingChoice)
     {
@@ -31,13 +31,7 @@ int main(void)
             break;
 
         case 4:
-            printf("The letter grade of the student is: ");
-            char letterGrade[2] = getLetterGrade(average);
-            for(int i=0; i<2; i++)
-            {
-                printf("%c", letterGrade[i]);
-            }
-
+            printf("The letter grade of the student is: %s", getLetterGrade(average));
             break;
     }
 
@@ -47,25 +41,9 @@ int main(void)
     return 0;
 }
 
-float getMarks(int subNumber)
-{
-    float marks;
-    int isValid;
-
-    do
-    {
-        printf("Enter the marks (out of 100) for subject %d: ", subNumber);
-        fflush(stdin);
-        isValid = scanf("%f", &marks);
-    }
-    while(!isValid && marks >= 0 && marks <= 100);
-
-    return marks;
-}
-
 int getGradingScheme()
 {
-    int isValid, gradingChoice;
+    int valid, gradingChoice;
 
     // Get the type of grading scheme
     do
@@ -78,16 +56,32 @@ int getGradingScheme()
 
         printf("Enter your choice: ");
         fflush(stdin);
-        isValid = scanf("%d", &gradingChoice);
+        valid = scanf("%d", &gradingChoice);
     }
-    while(!isValid || gradingChoice > 4 || gradingChoice < 1);
+    while(!valid || gradingChoice > 4 || gradingChoice < 1);
 
     return gradingChoice;
 }
 
+float getMarks(int subNumber)
+{
+    float marks;
+    int valid;
+
+    do
+    {
+        printf("Enter the marks (out of 100) for subject %d: ", subNumber);
+        fflush(stdin);
+        valid = scanf("%f", &marks);
+    }
+    while(!valid && marks >= 0 && marks <= 100);
+
+    return marks;
+}
+
 float getAvgMarks()
 {
-    int isValid, subCount;
+    int valid, totalSubjects;
     float sum = 0.0f;
 
     // Get total number of subjects
@@ -95,71 +89,46 @@ float getAvgMarks()
     {
         printf("Enter the number of subjects: ");
         fflush(stdin);
-        isValid = scanf("%d", &subCount);
+        valid = scanf("%d", &totalSubjects);
     }
-    while(!isValid || subCount < 0);
+    while(!valid || totalSubjects < 0);
 
-    for (int i = 1; i <= subCount; i++)
+    for (int i = 1; i <= totalSubjects; i++)
     {
         sum += getMarks(i);  // Add marks of each subjects
     }
 
-    return (sum/subCount);
+    return (sum / totalSubjects);  // Return average
 }
 
-// TODO: Fix this function
-char getLetterGrade(float average)
+const char * getLetterGrade(float average)
 {
-    char letter[2];
-
     average = (int) average;  // Convert to int for comparison
 
     if(average >= 80 && average <=100)
-    {
-        letter[0] = 'A';
-        letter[1] = '+';
-    }
+        return "A+";
 
     else if(average >= 70 && average <= 79)
-    {
-        letter[0] = 'A';
-        letter[1] = ' ';
-    }
-    else if(average >= 65 && average <= 69)
-    {
-        letter[0] = 'B';
-        letter[1] = '+';
-    }
-    else if(average >= 60 && average <= 64)
-    {
-        letter[0] = 'B';
-        letter[1] = ' ';
-    }
-    else if(average >= 55 && average <= 59)
-    {
-        letter[0] = 'C';
-        letter[1] = '+';
-    }
-    else if(average >= 50 && average <= 54)
-    {
-        letter[0] = 'C';
-        letter[1] = ' ';
-    }
-    else if(average >= 45 && average <= 49)
-    {
-        letter[0] = 'D';
-        letter[1] = ' ';
-    }
-    else if(average >= 40 && average <= 44)
-    {
-        letter[0] = 'E';
-        letter[1] = ' ';
-    }
-    else if(average < 40)
-    {
-        letter[0] = 'F';
-        letter[1] = ' ';
-    }
+        return "A";
 
-    return (char) letter;
+    else if(average >= 65 && average <= 69)
+        return "B+";
+
+    else if(average >= 60 && average <= 64)
+        return "B";
+
+    else if(average >= 55 && average <= 59)
+        return "C+";
+
+    else if(average >= 50 && average <= 54)
+        return "C";
+
+    else if(average >= 45 && average <= 49)
+        return "D";
+
+    else if(average >= 40 && average <= 44)
+        return "E";
+
+    else
+        return "F";
 }
