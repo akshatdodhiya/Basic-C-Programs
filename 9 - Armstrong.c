@@ -8,8 +8,8 @@ int main(void)
 {
     int number, result;
 
-    number = getNumber();
-    result = getResult(number);
+    number = getNumber();  // Get number from user
+    result = getResult(number);  // Get number after calculation
 
     printf("%d is %s Armstrong number.\n", number, number == result ? "an" : "not an");
 
