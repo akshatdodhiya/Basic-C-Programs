@@ -60,3 +60,6 @@ The **Palindrome Range Program** prints all the palaindrome numbers within a spe
 
 ### 8. Student Grade Program
 The **Student Grade Program** calculates the grade of a student using four different marking schemes namely, CGPA (Cumulative Grade Point Average), GPA (Grade Point Average), Percentage and Letter grade. It uses the concept of strings and pointers for letter grade calculation.
+
+### 9. Armstrong Number Program
+The **Armstrong Number Program** checks whether a given number is an Armstrong number or not. It demonstrates the use of loops and math library to calculate the Armstrong number.
