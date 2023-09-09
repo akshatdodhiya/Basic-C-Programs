@@ -65,4 +65,4 @@ The **Student Grade Program** calculates the grade of a student using four diffe
 The **Armstrong Number Program** checks whether a given number is an Armstrong number or not. It demonstrates the use of loops and math library to calculate the Armstrong number.
 
 ### 10. Tax Calculator Program
-The **Tax Calculator Program** calculates the gst tax of a given amount. It also shows the amount by deducting the inclusive tax from it.
+The **Tax Calculator Program** calculates the gst tax of a given amount. It also displays the amount by deducting the inclusive tax from it.
