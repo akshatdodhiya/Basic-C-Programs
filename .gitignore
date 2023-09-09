@@ -1,4 +1,5 @@
 .idea/
+.vs/
 cmake-build-debug/
 CMakeLists.txt
 1-Factorial.exe
