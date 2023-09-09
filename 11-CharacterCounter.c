@@ -9,6 +9,9 @@ int main()
     char str[1000];
     int valid;
 
+    printf("********** Character Counter Program ***********\n\n");
+
+
     do
     {
         printf("Enter the string: ");
