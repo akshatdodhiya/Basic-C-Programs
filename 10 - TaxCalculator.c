@@ -7,7 +7,7 @@ void calInclusiveTax();
 void calExclusiveTax();
 int getInputs();
 
-float amount, tax, taxRate, finalAmount;
+float amount, tax, taxRate, finalAmount;  // Global variables
 
 int main(void)
 {
@@ -15,14 +15,14 @@ int main(void)
 
     printf("********** Tax Calculator Program ***********\n\n");
 
-    choice = getInputs();
+    choice = getInputs();  // Get inputs from the user and return the choice for inclusive or exclusive amount
 
     if(choice)
         calInclusiveTax();
     else
         calExclusiveTax();
 
-    system("pause");
+    system("pause");  // Pauses the execution of the program until receives the input from user
     return 0;
 }
 
@@ -36,7 +36,7 @@ int getInputs()
         fflush(stdin);
         valid = scanf("%f", &amount);
     }
-    while (!valid);
+    while (!valid);  // Ask to re-enter until correct
 
     do
     {
@@ -47,7 +47,7 @@ int getInputs()
         fflush(stdin);
         valid = scanf("%d", &choice);
     }
-    while (!valid || choice > 2 || choice < 1);
+    while (!valid || choice > 2 || choice < 1);  // Ask to re-enter until valid input is received
 
     do
     {
@@ -62,8 +62,8 @@ int getInputs()
 
 void calInclusiveTax()
 {
-    finalAmount = (amount / (100 + taxRate)) * 100;
-    tax = amount - finalAmount;
+    finalAmount = (amount / (100 + taxRate)) * 100;  // Get amount before tax
+    tax = amount - finalAmount;  // Get the inclusive tax from amount
 
     printf("The %.2f%% tax on amount %.3f is: %.2f\n", taxRate, amount, tax);
     printf("The amount before tax is: %.3f\n\n", finalAmount);
@@ -71,8 +71,8 @@ void calInclusiveTax()
 
 void calExclusiveTax()
 {
-    tax = amount * (taxRate / 100);
-    finalAmount = amount + tax;
+    tax = amount * (taxRate / 100);  // Get tax on amount
+    finalAmount = amount + tax;  // Get final amount after taxes
 
     printf("The %.2f%% tax on amount %.3f is: %.2f\n", taxRate, amount, tax);
     printf("The amount after tax is: %.3f\n\n", finalAmount);
