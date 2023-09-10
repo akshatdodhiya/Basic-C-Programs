@@ -14,6 +14,8 @@ int main()
 {
     int choice, valid;
 
+    printf("********** Area Program ***********\n\n");
+
     do
     {
         printf("Area of:\n");
