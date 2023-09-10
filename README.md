@@ -69,3 +69,6 @@ The **Tax Calculator Program** calculates the gst tax of a given amount. It also
 
 ### 11. Character Counter Program
 The **Character Counter Program** calculates the number of characters present in a string. It uses the functions present in string.h header file.
+
+### 12. Area Program
+The **Area Program** calculates the area of a circle, rectangle, square, and triangle.
