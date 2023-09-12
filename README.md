@@ -72,3 +72,6 @@ The **Character Counter Program** calculates the number of characters present in
 
 ### 12. Area Program
 The **Area Program** calculates the area of a circle, rectangle, square, and triangle.
+
+### 13. Words Counter Program
+The **Words Counter Program** calculates the number of words present in a string. It counts the number of spaces or a new-line character after a string to calculate the number of words.
