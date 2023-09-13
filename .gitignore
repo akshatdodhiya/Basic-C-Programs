@@ -15,3 +15,4 @@ CMakeLists.txt
 11-CharacterCounter.exe
 12-AreaProgram.exe
 13-WordsCounter.exe
+14-DecimalToBinary.exe
