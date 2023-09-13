@@ -9,6 +9,8 @@ int main(void)
 {
     int num, valid;
 
+    printf("********** Buzz Number Program ***********\n\n");
+
     do
     {
         printf("Enter a number: ");
