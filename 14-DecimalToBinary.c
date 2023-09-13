@@ -10,7 +10,6 @@ int main()
 
     printf("********** Decimal to Binary Converter Program ***********\n\n");
 
-
     do
     {
         printf("Enter a decimal number: ");
