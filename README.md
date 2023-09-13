@@ -75,3 +75,6 @@ The **Area Program** calculates the area of a circle, rectangle, square, and tri
 
 ### 13. Words Counter Program
 The **Words Counter Program** calculates the number of words present in a string. It counts the number of spaces or a new-line character after a string to calculate the number of words.
+
+### 14. Decimal To Binary
+The **Decimal To Binary Program** converts a decimal number to its binary equivalent.
