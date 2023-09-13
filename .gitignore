@@ -16,3 +16,4 @@ CMakeLists.txt
 12-AreaProgram.exe
 13-WordsCounter.exe
 14-DecimalToBinary.exe
+15-BuzzNumber.exe
