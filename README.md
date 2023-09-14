@@ -81,3 +81,6 @@ The **Decimal To Binary Program** converts a decimal number to its binary equiva
 
 ### 15. Buzz Number Program
 The **Buzz Number Program** checks whether a given number is a buzz number or not. A buzz number is a number which is either divisible by 7 or has 7 in it. For example, 14 is a buzz number because it is divisible by 7, whereas 23 is not a buzz number because it does not has 7 in the end neither it is divisible by 7.
+
+### 16. Automorphic Number Program
+The **Automorphic Number Program** checks whether a given number is an automorphic number or not. An automorphic number is a number whose square ends with the same digits as the number itself. For example, 25 is an automorphic number because its square is 625 and it ends with the same digits as the number itself.
