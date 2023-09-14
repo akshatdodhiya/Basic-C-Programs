@@ -78,3 +78,6 @@ The **Words Counter Program** calculates the number of words present in a string
 
 ### 14. Decimal To Binary
 The **Decimal To Binary Program** converts a decimal number to its binary equivalent.
+
+### 15. Buzz Number Program
+The **Buzz Number Program** checks whether a given number is a buzz number or not. A buzz number is a number which is either divisible by 7 or has 7 in it. For example, 14 is a buzz number because it is divisible by 7, whereas 23 is not a buzz number because it does not has 7 in the end neither it is divisible by 7.
