@@ -17,3 +17,4 @@ CMakeLists.txt
 13-WordsCounter.exe
 14-DecimalToBinary.exe
 15-BuzzNumber.exe
+16-AutomorphicNumber.exe
