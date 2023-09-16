@@ -84,3 +84,6 @@ The **Buzz Number Program** checks whether a given number is a buzz number or no
 
 ### 16. Automorphic Number Program
 The **Automorphic Number Program** checks whether a given number is an automorphic number or not. An automorphic number is a number whose square ends with the same digits as the number itself. For example, 25 is an automorphic number because its square is 625 and it ends with the same digits as the number itself.
+
+### 17. Neon Number Program
+The **Neon Number Program** checks whether a given number is a neon number or not. A neon number is a number whose square is equal to the sum of digits of the number. For example, 9 is a neon number because its square is 81 and the sum of digits of 9 is 9 which is equal to its square.
