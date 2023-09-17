@@ -18,3 +18,4 @@ CMakeLists.txt
 14-DecimalToBinary.exe
 15-BuzzNumber.exe
 16-AutomorphicNumber.exe
+17-NeonNumber.exe
