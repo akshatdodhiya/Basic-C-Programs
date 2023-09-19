@@ -87,3 +87,6 @@ The **Automorphic Number Program** checks whether a given number is an automorph
 
 ### 17. Neon Number Program
 The **Neon Number Program** checks whether a given number is a neon number or not. A neon number is a number whose square is equal to the sum of digits of the number. For example, 9 is a neon number because its square is 81 and the sum of digits of 9 is 9 which is equal to its square.
+
+### 18. Duck Number Program
+The **Duck Number Program** checks whether a given number is a duck number or not. A Duck number is a positive number which has zeroes present in it, For example 5640, 60245048, 9080604 are all Duck numbers.
