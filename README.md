@@ -90,3 +90,6 @@ The **Neon Number Program** checks whether a given number is a neon number or no
 
 ### 18. Duck Number Program
 The **Duck Number Program** checks whether a given number is a duck number or not. A Duck number is a positive number which has zeroes present in it, For example 5640, 60245048, 9080604 are all Duck numbers.
+
+### 19. Harshad Number Program
+The **Harshad Number Program** checks whether a given number is a harshad number or not. A harshad number is a number which is divisible by the sum of its digits. For example, 18 is a harshad number because it is divisible by the sum of its digits i.e. 1 + 8 = 9 and 18 is divisible by 9.
