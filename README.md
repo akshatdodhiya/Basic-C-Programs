@@ -93,3 +93,6 @@ The **Duck Number Program** checks whether a given number is a duck number or no
 
 ### 19. Harshad Number Program
 The **Harshad Number Program** checks whether a given number is a harshad number or not. A harshad number is a number which is divisible by the sum of its digits. For example, 18 is a harshad number because it is divisible by the sum of its digits i.e. 1 + 8 = 9 and 18 is divisible by 9.
+
+### 20. Happy Number Program
+The **Happy Number Program** checks whether a given number is a happy number or not. A happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit. For example, 13 is a happy number because 1^2 + 3^2 = 10, and 1^2 + 0^2 = 1.
