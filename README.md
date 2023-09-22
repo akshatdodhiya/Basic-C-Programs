@@ -96,3 +96,6 @@ The **Harshad Number Program** checks whether a given number is a harshad number
 
 ### 20. Happy Number Program
 The **Happy Number Program** checks whether a given number is a happy number or not. A happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit. For example, 13 is a happy number because 1^2 + 3^2 = 10, and 1^2 + 0^2 = 1.
+
+### 21. Disarium Number Program
+The **Disarium Number Program** checks whether a given number is a disarium number or not. A disarium number is a number whose sum of digits powered with their respective position is equal to the original number. For example, 135 is a disarium number because it is equal to 1^1 + 3^2 + 5^3 = 135.
